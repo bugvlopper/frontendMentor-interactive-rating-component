@@ -1,0 +1,35 @@
+.card{
+    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  width: 410px;
+  height: 415px;
+  background-color: var(--darkBlue);
+  font-family: "Overpass";
+  border-radius: 25px;
+  padding: 2rem;
+  text-align: center;
+}
+.card img{
+    width: 175px;
+    margin-bottom: 1.5rem;
+}
+.card h1{
+    margin-bottom: 1rem;
+}
+.rateResult{
+    color: var(--orange);
+    background-color: hsl(216, 12%, 54%, 0.1);
+    padding: .5rem 1rem ;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 460px) {
+    .card{
+      max-width: 330px;
+    }
+    .card h1{}
+  }

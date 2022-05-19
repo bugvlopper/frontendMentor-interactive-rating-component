@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+:root{
+  --orange: hsl(25, 97%, 53%);
+  --mediumGray: hsl(216, 12%, 54%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --lightGray: hsl(217, 12%, 63%);
+}
+.App{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 410px;
+  height: 415px;
+  background-color: var(--darkBlue);
+  font-family: "Overpass";
+  border-radius: 25px;
+  padding: 2rem;
+}
+.star-container{
+  background-color: hsl(216, 12%, 54%, 0.2);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+h1{
+  font-weight: 700;
+}
+p{
+  color: var(--lightGray);
+}
+ol{
+  
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  width: 50px;
+  height: 50px;
+  background-color: hsl(216, 12%, 54%, 0.2);
+  color: var(--lightGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-weight: 700;
+}
+li:hover{
+  cursor: pointer;
+  background-color: var(--orange);
+  color: white;
+}
+.active{
+  background-color: var(--lightGray);
+  color: white;
+}
+button{
+  height: 45px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: var(--orange);
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  justify-self: center;
+}
+button:hover{
+  background-color: white;
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 460px) {
+  .App{
+    max-width: 330px;
+  }
+  li{
+    width: 40px;
+    height: 40px;
+  }
+}
