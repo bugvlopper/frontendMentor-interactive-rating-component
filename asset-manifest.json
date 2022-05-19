@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/frontendMentor-interactive-rating-component/static/css/main.3162f2d0.css",
+    "main.js": "/frontendMentor-interactive-rating-component/static/js/main.9fb7996d.js",
+    "static/js/787.6fa2b503.chunk.js": "/frontendMentor-interactive-rating-component/static/js/787.6fa2b503.chunk.js",
+    "static/media/illustration-thank-you.svg": "/frontendMentor-interactive-rating-component/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/frontendMentor-interactive-rating-component/index.html",
+    "static/media/icon-star.svg": "/frontendMentor-interactive-rating-component/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.3162f2d0.css.map": "/frontendMentor-interactive-rating-component/static/css/main.3162f2d0.css.map",
+    "main.9fb7996d.js.map": "/frontendMentor-interactive-rating-component/static/js/main.9fb7996d.js.map",
+    "787.6fa2b503.chunk.js.map": "/frontendMentor-interactive-rating-component/static/js/787.6fa2b503.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3162f2d0.css",
+    "static/js/main.9fb7996d.js"
+  ]
+}
